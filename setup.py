@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='file_organza',
-    version='1.1.2',
+    version='1.1.3',
     description='A Python package to organize files by type or date',
     author='Your Name',
     author_email='your.email@example.com',
