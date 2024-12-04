@@ -1,6 +1,6 @@
 import os
 import pytest
-from file_organizer.organizer import FileOrganizer
+from file_organza.organizer import FileOrganizer
 
 @pytest.fixture
 def setup_directory(tmp_path):

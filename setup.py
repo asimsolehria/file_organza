@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='file_organza',
-    version='0.1.0',
+    version='1.1.2',
     description='A Python package to organize files by type or date',
     author='Your Name',
     author_email='your.email@example.com',
@@ -13,7 +13,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'organize-files=file_organizer.cli:main',
+            'organize-files=file_organza.cli:main',
         ],
     },
     classifiers=[
