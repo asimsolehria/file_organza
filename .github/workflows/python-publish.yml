@@ -29,6 +29,9 @@ jobs:
         python -m pip install --upgrade pip
         pip install setuptools wheel twine pytest  # Install the necessary tools
 
+    - name: List directory contents
+      run: ls -R  # List all directories and files recursively to help debug
+
     - name: Run tests
       run: |
         pytest tests/  # Run your tests in the tests/ directory
